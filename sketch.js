@@ -146,7 +146,7 @@ function draw() {
     text(score , 1170 , 110);
     scoree.visible = true;
     game.visible = true
-    text( mouseX +","+ mouseY , mouseX , mouseY)
+
   }
   if(gameState === 2){
     background(back2Img);
@@ -227,7 +227,7 @@ function draw() {
     game.visible = false ; 
     scoree.visible = false;
     background(quiz1Img)
-    text( mouseX +","+ mouseY , mouseX , mouseY)
+
     four.visible = true
     three.visible = true
     two.visible = true
